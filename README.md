@@ -11,7 +11,7 @@ These are the results obtained from:
 
 ---
 
-**Unsupervised Anomaly Detection for Industrial Visual Inspection: Implementation and Evaluation**
+## **Unsupervised Anomaly Detection for Industrial Visual Inspection: Implementation and Evaluation**
 
 AnomalyFTP is an open-source implementation focused on unsupervised anomaly detection for industrial visual inspection tasks. The repository provides tools and code for detecting visual anomalies in industrial settings, where abnormal samples are rare and defects can range from subtle scratches to significant structural issues.
 
@@ -27,16 +27,30 @@ AnomalyFTP is an open-source implementation focused on unsupervised anomaly dete
 
 ## Methodology
 
-The repository explores advanced anomaly detection techniques, including models inspired by recent research such as **SimpleNet**.
+The repository explores advanced anomaly detection techniques, including models inspired by recent research **GLASS** and **SimpleNet**.
 
-**SimpleNet** is a simple and application-friendly network designed for image anomaly detection and localization. It consists of:
+### GLASS: Global and Local Anomaly co-Synthesis Strategy
 
-- A pre-trained Feature Extractor to obtain local features.
-- A shallow Feature Adapter for domain adaptation.
-- An Anomaly Feature Generator that synthesizes anomaly features by adding Gaussian noise (used only during training).
-- A binary Anomaly Discriminator to distinguish between normal and anomalous features.
+**GLASS** (Global and Local Anomaly co-Synthesis Strategy) is a unified framework for synthesizing a broader and more controllable range of anomalies at both the feature and image levels. It consists of:
 
-SimpleNet achieves high accuracy (AUROC of 99.6% on MVTec AD) and fast inference (77 FPS on a 3080ti GPU), making it suitable for real-world industrial applications.
+- **Global Anomaly Synthesis (GAS):** Synthesizes weak, near-in-distribution anomalies at the feature level using Gaussian noise guided by gradient ascent and truncated projection. This approach enhances the detection of subtle defects that are close to normal samples.
+- **Local Anomaly Synthesis (LAS):** Generates strong, far-from-distribution anomalies at the image level by overlaying textures, providing a diverse set of synthetic anomalies.
+
+GLASS achieves state-of-the-art results on major industrial benchmarks such as MVTec AD (detection AUROC of 99.9%), VisA, and MPDD, and it excels in weak defect detection. Its effectiveness and efficiency have been validated in real-world industrial applications[1][3][4][5].
+
+### SimpleNet
+
+**SimpleNet** is a lightweight and application-friendly network for image anomaly detection and localization. It includes:
+
+- A pre-trained feature extractor for local feature extraction.
+- A shallow feature adapter for domain adaptation.
+- An anomaly feature generator that injects Gaussian noise during training.
+- A binary anomaly discriminator for distinguishing normal and anomalous features.
+
+SimpleNet achieves high accuracy and fast inference, making it suitable for deployment in industrial environments.
+
+---
+
 
 ---
 

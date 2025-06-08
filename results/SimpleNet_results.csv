@@ -1,0 +1,16 @@
+Category,I-AUROC (%),P-AUROC (%)
+Bottle,98.49,82.75
+Cable,88.08,79.62
+Capsule,90.03,95.23
+Carpet,93.86,75.4
+Grid,92.94,87.87
+Hazelnut,60.04,68.99
+Leather,84.14,87.19
+Metal Nut,71.36,89.96
+Pill,71.09,86.19
+Screw,69.34,76.93
+Tile,78.86,67.79
+Toothbrush,80.83,85.73
+Transistor,77.08,79.08
+Wood,92.98,76.82
+Zipper,98.53,92.17

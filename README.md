@@ -25,7 +25,8 @@ AnomalyFTP is an open-source implementation focused on unsupervised anomaly dete
 
 ---
 ## DataSet 
-The MVTec Anomaly Detection (![MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/)) dataset is a widely used benchmark for evaluating unsupervised anomaly detection methods, particularly in the context of industrial visual inspection. It is specifically designed to reflect real-world manufacturing scenarios, where defective samples are scarce, and models are typically trained only on normal (defect-free) images.
+The MVTec Anomaly Detection ([MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/)) dataset is a widely used benchmark for evaluating unsupervised anomaly detection methods, particularly in the context of industrial visual inspection. It is specifically designed to reflect real-world manufacturing scenarios, where defective samples are scarce, and models are typically trained only on normal (defect-free) images.
+
 ![mvtec](results/mvtec.png)
 
 ---

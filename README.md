@@ -41,7 +41,7 @@ The repository explores advanced anomaly detection techniques, including models 
 - **Global Anomaly Synthesis (GAS):** Synthesizes weak, near-in-distribution anomalies at the feature level using Gaussian noise guided by gradient ascent and truncated projection. This approach enhances the detection of subtle defects that are close to normal samples.
 - **Local Anomaly Synthesis (LAS):** Generates strong, far-from-distribution anomalies at the image level by overlaying textures, providing a diverse set of synthetic anomalies.
 
-GLASS achieves state-of-the-art results on major industrial benchmarks such as MVTec AD (detection AUROC of 99.9%), VisA, and MPDD, and it excels in weak defect detection. Its effectiveness and efficiency have been validated in real-world industrial applications[1][3][4][5].
+GLASS achieves state-of-the-art results on major industrial benchmarks such as MVTec AD (detection AUROC of 99.9%), VisA, and MPDD, and it excels in weak defect detection. Its effectiveness and efficiency have been validated in real-world industrial applications.
 
 ### SimpleNet
 
@@ -69,8 +69,7 @@ cd AnomalyFTP
 ```
 
 2. **Install dependencies:**
-   - Ensure you have Python 3.x and pip installed.
-   - Install required packages (see requirements.txt if provided).
+   - Install required packages (see [requirements.txt](requirements.txt)).
 
 3. **Prepare your data:**
    - Organize your industrial inspection images as described in the documentation.
@@ -134,7 +133,8 @@ This project is released under the Apache ![License](LICENSE)
 
 ## References
 
-- [SimpleNet: A Simple Network for Image Anomaly Detection and Localization]
+- [SimpleNet: A Simple Network for Image Anomaly Detection and Localization](https://arxiv.org/abs/2303.15140)
+- [A Unified Anomaly Synthesis Strategy with Gradient Ascent for Industrial Anomaly Detection and Localization](https://arxiv.org/abs/2407.09359)
 
 ---
 

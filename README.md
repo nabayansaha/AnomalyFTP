@@ -1,7 +1,8 @@
 # AnomalyFTP
 
 ## Results
-These are the results obtained from:\n
+These are the results obtained from:
+
 **1) GLASS:**
 ![glass1](results/glass1.png)
 **2) SimpleNet**

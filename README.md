@@ -127,7 +127,7 @@ cd AnomalyFTP
 
 ## License
 
-This project is released under the Apache ![License](LICENSE)
+This project is released under the Apache [License](LICENSE)
 
 ---
 

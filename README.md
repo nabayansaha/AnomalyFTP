@@ -1,6 +1,6 @@
 # AnomalyFTP
 
-![glass1](results/glass1.png)
+![glass1](results/glass2.png)
 ![SimpleNet](results/SimpleNet.png)
 
 ---

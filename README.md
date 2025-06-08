@@ -1,6 +1,6 @@
 # AnomalyFTP
 
-## Results
+## Visualization
 These are the results obtained from:
 
 **1) GLASS:**
@@ -77,14 +77,53 @@ cd AnomalyFTP
 
 ## Results
 
-- The repository includes sample results and visualizations to demonstrate anomaly localization and detection performance.
-- Example outputs (see included images: glass1.png, SimpleNet.png) showcase the ability to identify and highlight defective regions in industrial products.
+1. **GLASS**:
+   
+| Category    | I-AUROC (%) | P-AUROC (%) |
+|-------------|-------------|-------------|
+| Bottle      | 99.60       | 83.76       |
+| Cable       | 87.95       | 71.55       |
+| Capsule     | 94.34       | 63.60       |
+| Carpet      | 93.24       | 93.51       |
+| Grid        | 97.24       | 88.02       |
+| Hazelnut    | 94.61       | 73.80       |
+| Leather     | 99.80       | 97.50       |
+| Metal Nut   | 99.56       | 70.58       |
+| Pill        | 91.49       | 62.11       |
+| Screw       | 86.62       | 68.41       |
+| Tile        | 100.00      | 87.81       |
+| Toothbrush  | 87.50       | 90.57       |
+| Transistor  | 86.50       | 44.69       |
+| Wood        | 98.51       | 83.10       |
+| Zipper      | 99.89       | 81.96       |
+| **Average** | **94.91**   | **77.89**   | 
+
+2. **SimpleNet**:
+
+| Category    | I-AUROC (%) | P-AUROC (%) |
+|-------------|-------------|-------------|
+| Bottle      | 98.49       | 82.75       |
+| Cable       | 88.08       | 79.62       |
+| Capsule     | 90.03       | 95.23       |
+| Carpet      | 93.86       | 75.40       |
+| Grid        | 92.94       | 87.87       |
+| Hazelnut    | 60.04       | 68.99       |
+| Leather     | 84.14       | 87.19       |
+| Metal Nut   | 71.36       | 89.96       |
+| Pill        | 71.09       | 86.19       |
+| Screw       | 69.34       | 76.93       |
+| Tile        | 78.86       | 67.79       |
+| Toothbrush  | 80.83       | 85.73       |
+| Transistor  | 77.08       | 79.08       |
+| Wood        | 92.98       | 76.82       |
+| Zipper      | 98.53       | 92.17       |
+| **Average** | **83.66**   | **81.99**   |
 
 ---
 
 ## License
 
-This project is released under the license specified in the repository.
+This project is released under the Apache ![License](LICENSE)
 
 ---
 
